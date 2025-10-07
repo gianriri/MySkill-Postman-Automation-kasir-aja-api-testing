@@ -50,7 +50,7 @@ Data-driven testing is applied on the **Create User** endpoint using a CSV file.
 
 ## Published Documentation
 You can view the live Postman documentation here:  
-[Kasir AJA API Postman Documentation]([https://documenter.getpostman.com/view/49033900/2sB3QJNWDv])
+[Kasir AJA API Postman Documentation](https://documenter.getpostman.com/view/49033900/2sB3QJNWDv)
 
 ---
 
