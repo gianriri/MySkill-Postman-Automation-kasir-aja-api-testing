@@ -41,9 +41,9 @@ Data-driven testing is applied on the **Create User** endpoint using a CSV file.
 ## Files in This Repository
 | File | Description |
 |------|--------------|
-| `KasirAJA_API.postman_collection.json` | Postman collection of all requests |
-| `users.csv` | Data for data-driven testing |
-| `KasirAJA_TestResult.json` | Exported run results (all tests passed) |
+| `Postman Automation Kasir AJA API.postman_collection.json` | Postman collection of all requests |
+| `Data Driven Test.csv.csv` | Data for data-driven testing |
+| `Postman Learning.postman_test_run.json` | Exported run results (all tests passed) |
 
 ---
 
