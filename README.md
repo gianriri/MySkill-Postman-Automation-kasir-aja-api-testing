@@ -19,6 +19,7 @@ The goal of this project is to practice designing and executing API test cases, 
 | `/authentications` | POST | Login and get access token |
 | `/users` | POST | Create new user |
 | `/users` | GET | Retrieve list of all users |
+| `/users` | POST | Create users from csv file |
 
 ---
 
