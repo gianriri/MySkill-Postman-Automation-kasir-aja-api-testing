@@ -1,0 +1,139 @@
+{
+	"id": "d0011202-0c78-4ba3-be5d-a00576186f9b",
+	"name": "Postman Learning",
+	"timestamp": "2025-10-07T06:20:38.816Z",
+	"collection_id": "49033900-a84c174c-2883-4a31-9bb1-35f8a95fbb96",
+	"folder_id": "49033900-5f19bcf0-66e5-47dd-84bb-541076ce9e70",
+	"environment_id": "49033900-e2951444-26ea-43c3-8e7e-8871cc0eb259",
+	"totalPass": 7,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-10-07T06:20:36.550Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "2665360e-6df6-4ac1-b711-30a948741e94",
+			"name": "Login Auth",
+			"url": "https://kasir-api.zelz.my.id/authentications",
+			"time": 1000,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"JSON structure contains accessToken": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"JSON structure contains accessToken": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1000
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"JSON structure contains accessToken": true
+				}
+			]
+		},
+		{
+			"id": "e06421a9-1f30-4470-be59-5a6ba6138812",
+			"name": "Get User Kasir",
+			"url": "https://kasir-api.zelz.my.id/users",
+			"time": 48,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response contains users array": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response contains users array": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				48
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response contains users array": true
+				}
+			]
+		},
+		{
+			"id": "e438b1e1-7fcd-4022-8425-cf0d82112039",
+			"name": "Data Driven Test",
+			"url": "https://kasir-api.zelz.my.id/users",
+			"time": 580,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Message is success": true,
+				"User name matches CSV input": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Message is success": {
+					"pass": 1,
+					"fail": 0
+				},
+				"User name matches CSV input": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				580
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Message is success": true,
+					"User name matches CSV input": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1628,
+	"collection": {
+		"requests": [
+			{
+				"id": "2665360e-6df6-4ac1-b711-30a948741e94",
+				"method": "POST"
+			},
+			{
+				"id": "e06421a9-1f30-4470-be59-5a6ba6138812",
+				"method": "GET"
+			},
+			{
+				"id": "e438b1e1-7fcd-4022-8425-cf0d82112039",
+				"method": "POST"
+			}
+		]
+	}
+}
