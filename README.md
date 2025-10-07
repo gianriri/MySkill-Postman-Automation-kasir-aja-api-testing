@@ -42,7 +42,6 @@ Data-driven testing is applied on the **Create User** endpoint using a CSV file.
 | File | Description |
 |------|--------------|
 | `KasirAJA_API.postman_collection.json` | Postman collection of all requests |
-| `KasirAJA_Env.postman_environment.json` | Environment variables (baseUrl, accessToken, etc.) |
 | `users.csv` | Data for data-driven testing |
 | `KasirAJA_TestResult.json` | Exported run results (all tests passed) |
 
